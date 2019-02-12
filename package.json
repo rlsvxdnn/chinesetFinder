@@ -1,8 +1,8 @@
 {
   "name": "chinesefinder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "查找指定文件夹所有js/ts文件中的所有中文字词",
-  "main": "index.js",
+  "main": "./build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
