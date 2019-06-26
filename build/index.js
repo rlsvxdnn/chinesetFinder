@@ -59,6 +59,7 @@ var Handler = /** @class */ (function () {
                 }
             }
         }
+        this.newChinese.push("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890.,;'/[]<>?:\"{}|!@#$%^&*( )_+-= \u3002\uFF0C\uFF1B\u201C\u201D\u2018\u2019\u3001\u3001\u3010\u3011\u300A\u300B\uFF1F\uFF1A{}|\uFF01@#\uFFE5%\u2026\u2026&*\uFF08\uFF09-=\u2014\u2014+");
         var result = this.newChinese.join("");
         this.outputWords(result);
     };

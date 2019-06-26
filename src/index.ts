@@ -60,6 +60,7 @@ class Handler {
                 }
             }
         }
+        this.newChinese.push(`abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890.,;'/\[]<>?:"{}|!@#$%^&*( )_+-= 。，；“”‘’、、【】《》？：{}|！@#￥%……&*（）-=——+`)
         const result = this.newChinese.join("");
         this.outputWords(result);
     }

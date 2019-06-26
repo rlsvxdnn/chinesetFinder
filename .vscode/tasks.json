@@ -5,12 +5,20 @@
     "tasks": [
         {
             "type": "npm",
-            "script": "buildAndRun",
+            "script": "build",
             "problemMatcher": []
         },
         {
+            "type": "typescript",
+            "tsconfig": "tsconfig.json",
+            "option": "watch",
+            "problemMatcher": [
+                "$tsc-watch"
+            ]
+        },
+        {
             "type": "npm",
-            "script": "build",
+            "script": "start",
             "problemMatcher": []
         }
     ]

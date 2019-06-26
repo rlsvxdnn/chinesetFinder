@@ -10,8 +10,10 @@
   },
   "exclude": [
     "./build",
+    "./input",
+    "./output",
   ],
   "include": [
-    "./src",
+    "./",
   ]
 }
