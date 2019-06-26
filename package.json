@@ -1,6 +1,6 @@
 {
   "name": "chinesefinder",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "查找指定文件夹所有js/ts文件中的所有中文字词",
   "main": "./build/index.js",
   "scripts": {
